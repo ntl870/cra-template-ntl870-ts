@@ -1,0 +1,25 @@
+{
+  "name": "cra-template-ntl870-ts",
+  "version": "1.0.5",
+  "description": "Custom CRA template (typescript)",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "keywords": [
+    "\"template\""
+  ],
+  "author": "ntl870",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "serve": "^11.2.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "package": {
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.6.1",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/jest": "^26.0.15",
+      "@types/node": "^12.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@types/react-redux": "^7.1.18",
+      "@types/react-router-dom": "^5.1.8",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-redux": "^7.2.4",
+      "react-router-dom": "^5.2.1",
+      "react-scripts": "4.0.3",
+      "react-spring": "^9.2.4",
+      "typescript": "^4.1.2",
+      "web-vitals": "^1.0.1",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "serve": "^11.2.0"
+    },
+    "scripts": {
+      "serve": "serve -s build",
+      "build-and-serve": "npm run build && npm run serve",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+      "plugins": ["jsx-a11y"]
+    }
+  }
+}
