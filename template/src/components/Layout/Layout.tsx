@@ -5,7 +5,7 @@ const Layout: FC = () => {
   return (
     <>
       {routes.map(({ component: Component, path, ...rest }) => (
-        <Route component={Component} key={path} {...rest} />
+        <Route component={Component} path={path} key={path} {...rest} />
       ))}
     </>
   );

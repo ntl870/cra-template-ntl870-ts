@@ -1,6 +1,6 @@
 {
   "name": "cra-template-ntl870-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Custom CRA template (typescript)",
   "main": "index.js",
   "scripts": {
